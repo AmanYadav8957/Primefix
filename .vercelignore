@@ -1,0 +1,2 @@
+# Ignore backend server directory during Vercel frontend deployment
+server/
