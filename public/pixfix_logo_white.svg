@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 64" fill="none" width="290" height="64">
+  <defs>
+    <linearGradient id="pfx-w-blue-alias" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="pfx-w-accent-alias" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#bae6fd" />
+    </linearGradient>
+    <filter id="pfx-w-shadow-alias" x="-10%" y="-10%" width="125%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0284c7" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <g transform="translate(6, 8)" filter="url(#pfx-w-shadow-alias)">
+    <rect x="0" y="0" width="48" height="48" rx="14" fill="url(#pfx-w-blue-alias)" />
+    <rect x="10" y="9" width="6.5" height="30" rx="2.5" fill="#ffffff" />
+    <path d="M15 9 H26.5 C32.8 9 38 14.2 38 20.5 C38 26.8 32.8 32 26.5 32 H15 V25 H26.5 C29 25 31 23 31 20.5 C31 18 29 16 26.5 16 H15 V9 Z" fill="#ffffff" />
+    <path d="M18.5 16 H26.5 C29 16 31 18 31 20.5 C31 23 29 25 26.5 25 H18.5 V16 Z" fill="url(#pfx-w-accent-alias)" fill-opacity="0.95" />
+    <circle cx="40" cy="8" r="3.2" fill="#38bdf8" stroke="#ffffff" stroke-width="1.2" />
+  </g>
+
+  <g transform="translate(68, 12)">
+    <text x="0" y="27" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="27" font-weight="900" letter-spacing="-0.5" fill="#ffffff">
+      PRIME<tspan fill="#38bdf8">FIX</tspan>
+    </text>
+    <text x="1.5" y="42" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="800" letter-spacing="3.8" fill="#bae6fd">
+      DIGITAL
+    </text>
+  </g>
+</svg>
